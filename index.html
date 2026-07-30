@@ -1,308 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fathima Zirwa PK | Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fathima Zirwa PK | Portfolio</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:'Poppins',sans-serif;
-scroll-behavior:smooth;
-}
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-body{
-background:#0f172a;
-color:white;
-}
-
-header{
-position:fixed;
-width:100%;
-padding:20px 8%;
-display:flex;
-justify-content:space-between;
-align-items:center;
-background:rgba(0,0,0,.4);
-backdrop-filter:blur(15px);
-z-index:100;
-}
-
-header h2{
-color:#38bdf8;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-margin-left:25px;
-transition:.3s;
-}
-
-nav a:hover{
-color:#38bdf8;
-}
-
-.hero{
-min-height:100vh;
-display:flex;
-align-items:center;
-justify-content:space-between;
-padding:120px 8%;
-}
-
-.hero-text{
-max-width:600px;
-}
-
-.hero-text h3{
-font-size:22px;
-color:#38bdf8;
-}
-
-.hero-text h1{
-font-size:60px;
-margin:15px 0;
-}
-
-.hero-text span{
-color:#38bdf8;
-}
-
-.hero-text p{
-line-height:1.8;
-opacity:.8;
-}
-
-.btn{
-display:inline-block;
-margin-top:30px;
-padding:15px 35px;
-background:#38bdf8;
-border-radius:50px;
-text-decoration:none;
-color:#fff;
-font-weight:bold;
-transition:.4s;
-}
-
-.btn:hover{
-transform:translateY(-5px);
-box-shadow:0 0 25px #38bdf8;
-}
-
-.hero img{
-width:360px;
-height:360px;
-border-radius:50%;
-object-fit:cover;
-border:8px solid #38bdf8;
-box-shadow:0 0 40px #38bdf8;
-}
-
-section{
-padding:90px 8%;
-}
-
-.title{
-text-align:center;
-font-size:40px;
-margin-bottom:40px;
-color:#38bdf8;
-}
-
-.cards{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:25px;
-}
-
-.card{
-background:#1e293b;
-padding:30px;
-border-radius:20px;
-transition:.4s;
-}
-
-.card:hover{
-transform:translateY(-10px);
-box-shadow:0 0 25px #38bdf8;
-}
-
-.skills span{
-display:inline-block;
-padding:10px 18px;
-margin:8px;
-background:#38bdf8;
-border-radius:30px;
-font-weight:bold;
-}
-
-footer{
-text-align:center;
-padding:30px;
-background:#020617;
-}
-
-.contact p{
-margin:15px 0;
-font-size:18px;
-}
-</style>
-
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
 </head>
 
 <body>
 
+<div class="loader"></div>
+
 <header>
 
-<h2>Portfolio</h2>
+<div class="logo">
+FZ.
+</div>
 
 <nav>
+
+<a href="#home">Home</a>
 <a href="#about">About</a>
-<a href="#qualification">Qualification</a>
+<a href="#education">Education</a>
 <a href="#skills">Skills</a>
 <a href="#projects">Projects</a>
 <a href="#contact">Contact</a>
+
 </nav>
+
+<div class="theme">
+<i class="fa-solid fa-moon"></i>
+</div>
 
 </header>
 
-<section class="hero">
+<section class="hero" id="home">
 
-<div class="hero-text">
+<div class="hero-left">
 
 <h3>Hello, I'm</h3>
 
 <h1>Fathima <span>Zirwa PK</span></h1>
 
+<h2>
+<span class="typing"></span>
+</h2>
+
 <p>
-A passionate BCA student and creative designer who loves building beautiful digital experiences. I enjoy UI/UX design, web development, graphic designing, branding, and creating premium handcrafted gifts through my business <b>Ink.Dot</b>.
+
+Passionate BCA student with a strong interest in UI/UX Design,
+Web Development and Modern Technologies.
+I enjoy creating beautiful websites and learning
+new programming skills every day.
+
 </p>
 
-<a href="#contact" class="btn">Hire Me</a>
+<div class="buttons">
+
+<a href="#contact" class="btn">
+Contact Me
+</a>
+
+<a href="#projects" class="btn2">
+View Projects
+</a>
 
 </div>
 
-<img src="profile.jpg" alt="Profile Photo">
+<div class="social">
+
+<a href="#"><i class="fab fa-github"></i></a>
+
+<a href="#"><i class="fab fa-linkedin"></i></a>
+
+<a href="#"><i class="fas fa-envelope"></i></a>
+
+</div>
+
+</div>
+
+<div class="hero-right">
+
+<div class="circle">
+
+<img src="profile.jpg" alt="Profile">
+
+</div>
+
+</div>
 
 </section>
 
 <section id="about">
 
-<h2 class="title">About Me</h2>
+<h2 class="title">
+About Me
+</h2>
 
-<div class="card">
+<div class="about-box">
+
+<div>
+
+<h3>Who am I?</h3>
 
 <p>
 
-I am <b>Fathima Zirwa PK</b>, a BCA student passionate about technology, creativity, and design. I enjoy learning new technologies and creating elegant websites with modern user experiences. Along with coding, I run my creative brand <b>Ink.Dot</b>, where I design customized hampers, gifts, wedding stationery, and handmade products.
+I'm Fathima Zirwa PK,
+a Bachelor of Computer Applications (BCA) student
+with a passion for creating modern websites,
+designing user-friendly interfaces,
+and solving problems through technology.
+
+I continuously improve my programming,
+design, and communication skills
+while exploring new technologies.
 
 </p>
 
 </div>
 
+<div class="info">
+
+<div>
+
+<h4>Name</h4>
+
+<p>Fathima Zirwa PK</p>
+
+</div>
+
+<div>
+
+<h4>Email</h4>
+
+<p>fathimazirwa8@gmail.com</p>
+
+</div>
+
+<div>
+
+<h4>Qualification</h4>
+
+<p>Bachelor of Computer Applications</p>
+
+</div>
+
+<div>
+
+<h4>Career Goal</h4>
+
+<p>UI/UX Designer & Full Stack Developer</p>
+
+</div>
+
+</div>
+
+</div>
+
 </section>
 
-<section id="qualification">
+<section id="education">
 
-<h2 class="title">Qualification</h2>
+<h2 class="title">
+Education
+</h2>
 
-<div class="cards">
+<div class="timeline">
 
-<div class="card">
-<h3>Bachelor of Computer Applications (BCA)</h3>
-<p>Currently Pursuing</p>
+<div class="timeline-item">
+
+<h3>BCA</h3>
+
+<h4>Currently Pursuing</h4>
+
+<p>
+
+Bachelor of Computer Applications
+
+</p>
+
 </div>
 
-<div class="card">
-<h3>Higher Secondary Education</h3>
-<p>Computer Science</p>
+<div class="timeline-item">
+
+<h3>Higher Secondary</h3>
+
+<h4>Computer Science</h4>
+
+<p>
+
+Completed Higher Secondary Education
+with Computer Science.
+
+</p>
+
 </div>
 
-<div class="card">
-<h3>Career Goal</h3>
-<p>UI/UX Designer & Full Stack Web Developer</p>
-</div>
+<div class="timeline-item">
+
+<h3>Future Goal</h3>
+
+<h4>Professional Developer</h4>
+
+<p>
+
+Become a UI/UX Designer and
+Full Stack Web Developer.
+
+</p>
 
 </div>
 
-</section>
+</div>
+
+</section><!-- ================= SKILLS ================= -->
 
 <section id="skills">
 
-<h2 class="title">Skills</h2>
+<h2 class="title">My Skills</h2>
 
-<div class="skills">
+<div class="skills-container">
 
-<span>HTML5</span>
-<span>CSS3</span>
-<span>JavaScript</span>
-<span>C Programming</span>
-<span>UI/UX Design</span>
-<span>Canva</span>
-<span>Graphic Design</span>
-<span>Web Design</span>
-<span>Problem Solving</span>
-<span>Communication</span>
-<span>Team Work</span>
-<span>Creativity</span>
+<div class="skill">
+<p>HTML <span>95%</span></p>
+<div class="bar"><div class="html"></div></div>
+</div>
+
+<div class="skill">
+<p>CSS <span>90%</span></p>
+<div class="bar"><div class="css"></div></div>
+</div>
+
+<div class="skill">
+<p>JavaScript <span>75%</span></p>
+<div class="bar"><div class="js"></div></div>
+</div>
+
+<div class="skill">
+<p>C Programming <span>85%</span></p>
+<div class="bar"><div class="c"></div></div>
+</div>
+
+<div class="skill">
+<p>UI / UX Design <span>88%</span></p>
+<div class="bar"><div class="ui"></div></div>
+</div>
+
+<div class="skill">
+<p>Communication <span>92%</span></p>
+<div class="bar"><div class="comm"></div></div>
+</div>
 
 </div>
 
 </section>
+
+<!-- ================= PROJECTS ================= -->
 
 <section id="projects">
 
 <h2 class="title">Projects</h2>
 
-<div class="cards">
+<div class="project-container">
 
-<div class="card">
-<h3>Ink.Dot Brand</h3>
-<p>Creative handmade gifts, hampers, Arabic calligraphy, wedding stationery, bouquets and customized products.</p>
-</div>
+<div class="project-card">
 
-<div class="card">
+<i class="fa-solid fa-code"></i>
+
 <h3>Portfolio Website</h3>
-<p>Responsive personal portfolio built using HTML and CSS.</p>
+
+<p>
+Responsive personal portfolio created using
+HTML, CSS and JavaScript.
+</p>
+
 </div>
 
-<div class="card">
-<h3>Student Projects</h3>
-<p>Academic projects in C Programming and Web Development.</p>
+<div class="project-card">
+
+<i class="fa-solid fa-laptop-code"></i>
+
+<h3>Student Management System</h3>
+
+<p>
+Academic project developed using C Programming.
+</p>
+
+</div>
+
+<div class="project-card">
+
+<i class="fa-solid fa-globe"></i>
+
+<h3>Responsive Web Design</h3>
+
+<p>
+Modern responsive website with clean UI
+and mobile-friendly layout.
+</p>
+
 </div>
 
 </div>
 
 </section>
 
-<section id="contact">
+<!-- ================= ACHIEVEMENTS ================= -->
 
-<h2 class="title">Contact</h2>
+<section id="achievements">
 
-<div class="card contact">
+<h2 class="title">Achievements</h2>
 
-<p>👩 Fathima Zirwa PK</p>
+<div class="achievement-container">
 
-<p>📧 fathimazirwa8@gmail.com</p>
+<div class="achievement-card">
 
-<p>💻 Available for Freelancing & Collaborations</p>
+<h3>🎓 BCA Student</h3>
 
-</div>
-
-</section>
-
-<footer>
-
-© 2026 Fathima Zirwa PK | Designed with ❤️
-
-</footer>
-
-</body>
-</html>
+<p>
+Passionate learner focused on software
+development and UI design.
+</p>
